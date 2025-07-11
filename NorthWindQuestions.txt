@@ -1,0 +1,210 @@
+Queries using single table
+
+1.	Count the total number of customers
+
+2.	Calculate the average unit price of products.
+
+3.	Find the maximum order quantity in order details.
+
+4.	Sum the total freight charges for all sales orders.
+
+5.	Get the minimum units in stock for products.
+
+6.	Count the number of orders placed by each customer. Display customer ID and total orders.
+
+7.	Calculate the average unit price of products in each category. Display category ID and average unit price. 
+
+8.	Find the total quantity ordered for each product. Display product ID and total quantity in each product. 
+
+9.	Get the total freight charges for each shipper. Display the shipper ID and total fright charge. 
+
+10.	Find the maximum unit price of products supplied by each supplier. Display supplier ID and max unit price by each supplier. 
+
+
+11.	Total quantity and total sales amount for each product by each customer. Retrieve the customer id, product id, total quantity and total sales amount. 
+
+12.	Average unit price and total quantity ordered for each product by each supplier. Retrieve supplier ID, product ID, average unit price of the product and total quantity ordered.
+
+13.	Total freight and total number of orders for each customer by each shipper. Display customer ID, shipper ID, total freight charges and total orders placed. 
+
+14.	Total sales amount and total discount for each product by each category. Display category ID, product ID, total sales amount and total discount. 
+
+15.	Total quantity and total sales amount for each employee by each customer. Display employee ID, customer ID, total quantity and total sales amount. 
+
+16.	Total Sales by Employee and Year whose total sales is greater than 10000. Display employee ID, ordered year, total sales amount. 
+
+17.	Average Order Value by Customer and Year where customer	average order is greater than 500. Display customer ID, ordered year, average order value. 
+
+18.	Total Quantity Ordered by Product and Year where the total quantity order is greater than 100. Display product ID, ordered year, and total quantity. 
+
+19.Total Freight Cost by Shipper and Year where total freight cost is greater than 500. Display shipper ID, ordered year and total freight amount. 
+
+20.Total Orders by Country and Year where total orders greater than 50. Display country name, ordered year and total orders.
+
+
+
+
+
+
+
+Queries using Inner Join
+
+21.	List all sales order id with customer names. Display order ID and contact name. 
+
+22.	List all product names with their supplier names. 
+
+23.	List all sales orders with employee full name. Display order ID and employee full name.
+
+24.	List all order id along with its product names. 
+
+25.	List all sales order id with shipper names
+
+26.	List all product name with their category name.
+
+27.	List all employee names with their manager’s name.
+
+28.	List all customers name with their sales order ids.
+
+29.	List all sales order id with corresponding product id and quantity ordered. 
+
+30.List all employee names with their territory description.
+
+31.	List all product name with their supplier company name and category name.
+
+32.	List all sales order id with customer names and employee names.
+
+33.List all product names with their order id and quantity ordered.
+
+34.List all customer names with their sales order id, product id and quantity of the product purchased.
+
+35.List all employees first name with their sales order id and customer contact name of the corresponding sales. 
+
+36.Retrieve employee first name and last name along with total sales amount and display in ascending order based on total sales. 
+
+37.	Retrieve total revenue by category and display it in descending order based on total revenue. 
+
+38.Retrieve average discount by supplier in descending order
+
+39.Retrieve employee first name, last name, company name and total orders given by each employee to a corresponding company. Arrange it in descending order based on Total orders. 
+
+40.Retrieve total sales by each customer on each product. Display company name, product name and total sales. Arrange in ascending order based on total sales. 
+
+41.	Total Revenue by Employee and based on product. Display employee first name, last name, product name and total revenue. Arrange it in descending order based on total revenue and product name. 
+
+42.	Retrieve average order value by employee for each customer (company). Display employee full name, company name and average number of orders. Round average order count to nearest integer. Arrange data in descending order based on average order. 
+
+43.Retrieve total sales by employee for each customer. Display employee ID, first name, last name, customer name (company name) and total sales amount. Arrange rows in descending order based on total sales. 
+
+44.Retrieve total sales by employee for each customer in each year. Read employee first name, last name, customer name (company name), year and total sales in each year. Arrange rows in descending order based on total sales. 
+
+45.Retrieve employee and related details who attained top 2 positions based on average ordered amount value provided to each customer in the year of 2008. Display employee’s first name, last name, customer name (Company name), ordered year, average sales amount in the year 2008. 
+
+46.Retrieve product name, category with its total quantity sold in each year. Arrange rows in descending order based on the total quantity sold.
+
+47.	Retrieve revenue generated by each employee in each year on each product. Arrange rows in descending order based on total revenue generated. 
+
+48.Retrieve average discount received by the company on each product in each year. Display the company name, product name, order year and average discount. Round average discount to 4 decimal places. 
+
+49.Retrieve total number of orders give to each customer by employee in each year. Display employee first name, last name, customer name (company name), year and total orders. 
+
+50.Retrieve average order amount generated by employee for each customer in each year. Display employee first name, last name, customer name (company name), product name and average order amount. 
+
+Queries using Self Join
+
+51.	Retrieve two different product names with same supplier. Display products as Product1 and Product 2 along with its supplier name. 
+
+52.	Retrieve two different customers from city.  Display Customer ID as Customer 1 and Customer 2 along with their city name. 
+
+53.Find Orders with the Same Ship Country.  Display order ids of both orders as Order1 and Oreder2 respectively along with its shipping country name. 
+
+54.Find employees with the same job Title. Display both employees’ first name as Employee1 and Employee2 along with title. 
+
+55.	Find products in the same category.  Display the product names as Product1 and Product2 along with its category ID.
+
+56.Find orders with the same customer. Display the order ids as Order1 and Order2 along with its customer ID.
+
+57.	Find suppliers from the same country. Display supplier ids as Supplier1 and Supplier2 along with country name.
+
+58.Find employees with the same hire date. Display employees’ first name as Employee1 and Employee2 along with hire date. 
+
+59.Find customers with the same contact title. Display customers IDs as Customer1 and Customer2 along with Contact title. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Queries using Nested Sub Queries
+
+60.Find the total sales for each employee. Display employee id and total sales amount by employee. 
+
+61.	List customers ID and total order amount who have placed orders with a total value greater than $10,000
+
+62.	Find the most expensive product in each category. Display the category ID and product name in each category. 
+
+63.	List employees who have handled orders for more than 50 different customers. Display employee ID and number of customers handled by the customer. 
+
+64.Find the average order value for each customer.  Display customer ID and average order amount placed by the customer. 
+
+65.List products that have never been ordered. Display the product ID and its name. 
+
+66.List suppliers who supply more than 4 different products. Display Supplier ID and Product count. 
+
+67.	Find the total quantity of products ordered by each customer. Display customer ID and total quantity of order placed by each customer. 
+
+68.List the top 5 customers by total order value. Display customer ID and Total order value. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Queries using Correlated Sub Queries
+
+69.Find customers who have placed more than 5 orders. Display customer ID and company name. 
+
+70.Find suppliers who supply more than 3 products. Display the supplier ID and company name. 
+
+71.	List orders that include products from more than 3 different categories.  Display the order ID. 
+
+72.	Find employees who have not processed any orders in the last year. Display employee ID, first name and last name. 
+
+73.	List customers who have ordered products from all categories. Display the customer ID and company name. 
+
+74.	Find products that have been ordered more than 100 times. Display product ID and product name. 
+
+75.	List employees who have processed orders for more than 20 different customers. Display employee ID, first name and last name. 
+
+76.	List all orders with customer and employee details. Display order id, company name, employee first name, last name and order date. 
+
+77.	List all products that have been ordered by customers whose region is NULL. Display product ID and product name.
+
+78.	List employees who have processed orders for Mexico customers. Display employee ID, first name and last name. 
+
+79.	List all orders with their shipping details. Display order id, order date, company name as Shipper, shipping address, shipping city and shipping country. 
+
+80.Find the total number of orders shipped by each shipper. Display shipper id, company name and count of orders as TotalOrders. 
+

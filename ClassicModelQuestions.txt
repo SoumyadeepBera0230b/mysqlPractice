@@ -1,0 +1,79 @@
+Queries using single table
+Retrieve the total number of Customers.
+Retrieve total number of orders.
+Retrieve total number of orders per customer.
+Retrieve total number of orders per status.
+Retrieve total number of orders per order date.
+Retrieve the earliest order date.
+Retrieve latest order date.
+Retrieve total number of orders per year.
+Retrieve total number of orders per month.
+Retrieve total number of orders per day of the week.
+Retrieve total number of orders per quarter.
+Retrieve total number of orders per customer and status. Sort by Customer number.
+Retrieve total number of orders per customer per year. Sort by customer number.
+Retrieve the total number of orders for the first 10 even weeks.
+Retrieve total number of orders per status per year. Sort by status.
+Retrieve total number of orders per customer per year and quarter for the year of 2004 and 2005.
+Retrieve the top 5 longest customer names along with their lengths.
+Extract the first 5 characters of customer names and convert to uppercase.
+Replace 'Ltd' with 'Limited' in customer names and display only those modified customer names.
+Round the credit limit to the nearest thousand and display the customer name along with the rounded credit limit.
+
+Queries using Inner Join
+Retrieve the order numbers and customer names for all orders.
+Retrieve the order numbers and product names for all orders.
+Retrieve the order numbers and the first and last names of the employees who managed them.
+Retrieve the names of all customers and their sales representatives, displaying the customer name, and the sales representative's first and last name.
+Retrieve the product names and their respective order quantities, displaying the product name and quantity ordered.
+Retrieve the order numbers and their respective total prices.
+Retrieve the names of all customers with their order numbers and order dates.
+Retrieve the first and last names of all employees with their office locations.
+Retrieve the order numbers, statuses, and customer names for all orders.
+Retrieve the names of all customers and their total number of orders.
+Retrieve the names of all products and their total quantities ordered.
+List all employees with the total number of customers they handle. Retrieve employee first name, last name and total number of customers handled by them.
+Retrieve the order numbers and their respective total prices.
+Retrieve the names of all customers and their total sales amounts.
+Retrieve the first and last names of all employees and their total sales amounts.
+Retrieve the customer numbers, names, and total sales amounts for customers with sales above $10,000.
+Retrieve the customer numbers, names, and average sales values for customers with an average order value exceeding $3500.
+Retrieve the customer numbers, names, and total number of orders for customers with more than 5 orders.
+Retrieve the product codes, names, and total sales for products with sales above $1,80,000.
+Retrieve the product codes, names, and average quantities ordered for products with an average above 30.
+Retrieve the employee numbers, first and last names, and sales amounts for employees with sales above $500,000.
+Retrieve the year and total payment amount for payments exceeding $1,000,000.
+Retrieve the year and average order value for years where the average order value exceeds $1,000.
+Retrieve the product line and total sales amount for product lines with total sales exceeding $200,000.
+Retrieve the country and total sales amount for countries with total sales exceeding $500,000.
+Retrieve the office name and sales amount for offices (cities) with total sales exceeding $300,000.
+
+Queries using Left Join
+Retrieve the names of all customers along with their order numbers, even if they have no orders.
+Retrieve the names of all products along with their order quantities, even if there are no orders.
+Retrieve the first and last names of all employees along with the names of the customers they handle, even if they have no customers.
+Retrieve the names of all customers along with their sales representatives (employee), even if they have no sales representative. Display the customer’s name, and the sales representative's first and last name.
+Retrieve the names of all customers along with their order statuses, even if they have no orders.
+
+Queries using Nested Sub-Queries
+Retrieve the product codes and names for items ordered by customers in the USA.
+Retrieve the employee number, first name, and last name of employees who report to manager 'Murphy'.
+Retrieve the order numbers for orders that include products from the 'Motorcycles' product line.
+Retrieve the names of customers who have placed orders.
+Retrieve the city and country of offices located in countries where customers are present.
+Retrieve the product codes and names for products with orders exceeding 50.
+Retrieve the employee number, first name, and last name of employees who have customers in their territory.
+Retrieve the order numbers for orders shipped to 'France'.
+Retrieve the names of customers who placed orders between 2003-01-01 and 2003-12-31.
+Retrieve the order numbers for orders with a specific status.
+Retrieve the names of customers with credit limits exceeding a specified amount 50000.
+Retrieve the employee number, first name, and last name of employees working in 'San Francisco'.
+Retrieve the product codes and names for products from 'Autoart Studio Design' vendor.
+Retrieve the order numbers for orders with a total price exceeding a 1000.
+Retrieve the product codes and names for products ordered by customers from Spain.
+Retrieve the city and country of offices located in cities where customers have placed orders.
+Retrieve the employee number, last name, and first name of employees with customers in their office's country.
+
+Queries using Correlated Sub Queries
+Retrieve the product codes and names for products priced above the average price of all products.
+Retrieve the names of customers with credit limits higher than the average credit limit in their country.
